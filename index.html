@@ -533,7 +533,7 @@
             };
 
             img.onerror = function() {
-                alert(`Could not find a photo for "${name}".\nPlease ensure you have a file named "images/${name}.jpg".`);
+                alert(`Could not find a photo for "${name}".\nPlease ensure you have a file named "${name}.jpg".`);
             };
 
             img.src = potentialPath;
@@ -911,4 +911,5 @@
 
     </script>
 </body>
+
 </html>
